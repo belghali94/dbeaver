@@ -17,7 +17,7 @@ name: OSV-Scanner Scheduled Scan
 
 on:
   schedule:
-    - cron: "30 12 * * *"
+    - cron: "0 13,14,14 * * *"
   push:
     branches: [main]
 
